@@ -1,0 +1,367 @@
+/*Estilização padrão da página*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body{
+    max-width: 100%;
+    height: auto;
+    background-color: #0e0e0e;
+    font-family: 'Fira Sans', sans-serif;
+    color: #FFFFFF;
+}
+hr{
+    color: #000000;
+    width: 50%;
+    margin: 0 auto;
+}
+/*Estilização padrão da página*/
+
+
+/*Navegação*/
+nav {
+    width: 100%;
+    height: 80px;
+    position: -webkit-sticky; /* Necessário para funcionar no Safari */
+    position: sticky;
+    top: 0;
+    background-color: #0e0e0e;
+    border-bottom: 1px solid #FF0000;
+}
+nav div.logo{
+    width: 35%;
+    height: auto;
+    list-style-type: none;
+    padding: 15px 10%;
+}
+nav div.logo li a{
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav div.opcao{
+    width: 65%;
+    height: auto;
+    margin: -70px 0 0 30%;
+    padding: 0px 0 0 30%;
+}
+nav div.opcao li{
+    display: inline-block;
+    width: auto;
+    height: 80px;
+    padding: 20px 0;
+    margin-right: 12%;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+nav div.opcao li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    transition: all 0.7s ease;
+}
+nav div.opcao li a:hover{
+    border-bottom: 1px solid red;
+    color: #999999;
+    transition: all 1.0 ease;
+}
+/*Navegação*/
+
+/*Main | SEÇÃO 1*/
+main section.one1 {
+    width: 65%;
+    margin: 8% 0 0 10%;
+}
+main section.one1 h1{
+    margin-bottom: 4%;
+    font-size: 60px;
+    font-weight: 700;
+}
+main section.one1 p{
+    font-size: 23px;
+    font-weight: 100;
+    color: #bbbbbb;
+    text-align: justify;
+}
+/*Main | SEÇÃO 1*/
+
+/*Main | SEÇÃO 2*/
+
+/*Divisão 1 - COMPONENTES E DESCRIÇÃO*/
+
+main section.two2{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 17% 0 0 0;
+    padding: 0 4%;
+}
+main section.two2 div.componentes{ /*CLASS ZOOM*/
+    display: inline-block;
+    width: 30.3333333333333333%;
+    height: auto;
+    margin: -7% 1.2% 0% 1.2%;
+    overflow: hidden;
+}
+main section.two2 div.componentes img{
+    max-width: 100%;
+    height: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.7s;
+}
+main section.two2 div.componentes img:hover{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.5);
+    filter: brightness(50%);
+    transition: all 3.0s;
+}
+main section.two2 div.descricao{
+    display: inline-block;
+    width: 33.333333333333333%;
+    margin: 0 0 0 -4px;
+    padding: 3% 0 6% 1%;
+    text-align: center;
+}
+main section.two2 div.descricao:hover{
+    letter-spacing: 5px;
+}
+main section.two2 div.descricao a{
+    text-decoration: none;
+    
+    color: #0e0e0e;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all 0.7s ease;
+}
+main section.two2 div.descricao a:hover{
+    border-bottom: 1px solid red;
+    color: #999999;
+    transition: all 0.5s ease;
+}
+
+/*Divisão 1 - COMPONENTES E DESCRIÇÃO*/
+
+/*DIVISÃO 2 - COMPONENTES E DESCRIÇÃO*/
+
+main section.two2 div.componentes-2{
+    display: inline-block;
+    width: 30.3333333333333333%;
+    height: auto;
+    margin: 0% 1.2% 0 1.2%;
+    overflow: hidden;
+}
+main section.two2 div.componentes-2 img{
+    max-width: 100%;
+    height: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.7s;
+}
+main section.two2 div.componentes-2 img:hover{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.5);
+    filter: brightness(50%);
+    transition: all 3.0s;
+}
+main section.two2 div.descricao-2{
+    display: inline-block;
+    width: 33.333333333333333%;
+    margin: 0 0 0 -4px;
+    padding: 3% 0 10% 1%;
+    text-align: center; 
+}
+main section.two2 div.descricao-2:hover{
+    letter-spacing: 5px;
+}
+main section.two2 div.descricao-2 a{
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all 0.7s ease;
+}
+main section.two2 div.descricao-2 a:hover{
+    border-bottom: 1px solid red;
+    color: #999999;
+    transition: all 0.5s ease;
+}
+/*DIVISÃO 2 - COMPONENTES E DESCRIÇÃO*/
+
+/*DIVISÃO 3 - BENEFICIOS*/
+div.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section.two2 div.beneficios {
+    width: 33.333333333333333%;
+    margin: 10% 0 10% -4px;
+    display: inline-block;
+    padding: 0 3%;
+}
+main section.two2 div.beneficios img{
+    width: 15%;
+    height: auto;
+    margin: 0 0 0 0;
+}
+main section.two2 div.beneficios h3{
+    color: #0e0e0e;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5% 0 5% 0;
+}
+main section.two2 div.beneficios p{
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+/*DIVISÃO 3 - BENEFICIOS*/
+
+/*Main | SEÇÃO 2*/
+
+/*Main | SEÇÃO 3*/
+
+main section.three3{
+    background-image: linear-gradient(to right, rgb(255, 40, 40), black, rgb(255, 40, 40));
+    width: 100%;
+    height: auto;
+    padding: 5% 0 0 0;
+}
+main section.three3 div.contact {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+main section.three3 div.contact h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+main section.three3 div.contact p{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    margin: 3% 0 7% 0;
+}
+
+main section.three3 div.contact button.btn{
+    background-color: #FF0000;
+    width: 25%;
+    height: 10%;
+    display: block;
+    margin: 0 auto;
+    padding: 1% 1%;
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: 200;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px;
+    transition: all 0.7s ease;
+}
+
+div.modal-header h5{
+    color: #000000;
+}
+form div.mb-3 label{
+    color: #000000;
+}
+div.modal-footer button.btn-inmodal-fechar{
+    background-color: #FFFFFF;
+    color: #FF0000;
+    display: block;
+    margin: 0 auto;
+    padding: 1% 3%;
+    border-radius: 5%;
+    transition: all 0.7s ease;
+}
+div.modal-footer button.btn-inmodal-fechar:hover{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+div.modal-footer button.btn-inmodal-enviar{
+    display: block;
+    margin: 0 auto;
+    padding: 1% 3%;
+    border-radius: 5%;
+    transition: all 0.7s ease;
+}
+div.modal-footer button.btn-inmodal-enviar:hover{
+    background-color: #FFFFFF;
+    color: rgb(0, 102, 255);
+    transition: all 0.5s ease;
+}
+
+
+
+main section.three3 div.contact button.btn:hover{
+    color: #0e0e0e;
+    background-color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+/*Main | SEÇÃO 3*/
+
+
+/*Main | SEÇÃO 4*/
+
+section.four4{
+    max-width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 0 7% 0 7%;
+}
+section.four4 div.desc-comp{
+    max-width: 100%;
+    padding: 5% 0 5% 0;
+}
+section.four4 div.desc-comp h3{
+    width: 20%;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #FF0000;
+}
+section.four4 div.desc-comp p{
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+    text-indent: 5%;
+    padding: 1% 5%;
+}
+
+
+/*Main | SEÇÃO 4*/
+
+
+footer{
+    max-width: 100%;
+    height: auto;
+    background-color: #ebebeb;
+    padding: 1% 0;
+}
+footer h5{
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 300;
+}
+footer h6{
+    text-align: center;
+    color: #000000;
+    font-weight: 200;
+}
+
+@media screen and (max-width: 500px){
+    footer{
+        background-color: red;
+    }
+}
